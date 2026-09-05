@@ -13,8 +13,9 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q reactionrecorder-project.zip -d extracted
-          cp -R extracted/. .
+          unzip -q reactionrecorder-GitHub.zip 
+          -d extracted
+          
 
       - name: Set up Java
         uses: actions/setup-java@v4
